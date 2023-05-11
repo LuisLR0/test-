@@ -1,0 +1,136 @@
+article {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 6.5px solid #229ed2;
+    background-color: #f0f8ff;
+    position: relative;
+}
+
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.tit-h {
+    text-align: center;
+    background-color: rgba(210, 227, 243, 0.334);
+}
+
+.descrip {
+    padding: 0 30px;
+    font-weight: 450;
+}
+
+.sell {
+    display: inline;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: #ffffff;
+    top: -39px;
+    left: -48px;
+    background-color: red;
+}
+
+.env-free {
+    color: #78a1c7;
+    display: inline-block;
+    position: absolute;
+    top: 350px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    left: -3px;
+    font-size: 9.5px;
+    padding-bottom: 10px;
+}
+
+.tit-p {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 30px;
+}
+
+.img-zap {
+    height: 230px;
+    width: auto;
+    padding: auto;
+    border: auto;
+    margin-left: 270px;
+}
+
+.head-art {
+    width: 825px;
+    margin: 50px auto;
+}
+
+a:link {
+    color: #367f9f;
+    text-decoration:line-through;
+}
+
+a:visited {
+    color: #367f9f;
+}
+
+a:hover {
+    color: #229ed2;
+}
+
+.dettl {
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 424px;
+    left: 30px;
+}
+
+ul {
+    margin-top: 35px;
+    list-style: square;
+    padding: 0 50px;
+}
+
+li {
+    font-weight: 430;
+}
+
+h3 {
+    padding: 0 30px;
+}
+
+button {
+    background-color: #229ed2;
+    width: 814px;
+    padding: -100px;
+    border: 0;
+    text-transform: uppercase;
+    border-top: 4px solid #229ed2;
+}
+
+button p {
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #f0f8ff;
+    border-top: 4px solid #229ed2;
+}
+
+button p:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: black;
+    letter-spacing: 2px;
+    margin: 10px;
+}
